@@ -18,10 +18,18 @@ nav {
   margin: 10px 0 20px 0;
   text-align: right;
 }
+footer ul {
+  padding: 0;
+}
 
 nav ul {
   display: inline-flex;
   padding: 5px;
+}
+
+footer li {
+  list-style: none;
+  padding-left: 20px;
 }
 
 nav li {
@@ -29,20 +37,48 @@ nav li {
   margin-right: 30px;
 }
 
-#bio {
+section {
+  margin: 20px 0;
+  padding: 10px 0;
+}
+
+i {
+  font-size: 30px;
+  margin: 10px 10px 10px 0;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  text-align: left;
+}
+
+footer h4 {
+  padding: 15px;
+}
+
+#bio,
+#projects {
   font-size: 20px;
   line-height: 2;
   letter-spacing: 1px;
+}
+
+#projects img {
+  border-radius: 8px;
+  margin: 20px 0;
+  transition: all 150ms ease-in-out;
+}
+
+#projects img:hover {
+  transform: scale(1.1);
 }
 
 .container {
   max-width: 900px;
   margin: 0 auto;
   padding: 15px;
-}
-
-.wrapper {
-  width: 100%;
 }
 
 .name {
