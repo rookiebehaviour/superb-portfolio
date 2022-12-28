@@ -14,10 +14,16 @@ body {
   background: var(--primary-color);
   color: var(--text-color);
 }
+
 nav {
   margin: 10px 0 20px 0;
   text-align: right;
 }
+
+btn {
+  color: var(--accent-color);
+}
+
 footer ul {
   padding: 0;
 }
@@ -37,6 +43,18 @@ nav li {
   margin-right: 30px;
 }
 
+nav li a {
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 5px;
+  transition: all 150ms ease-in-out;
+}
+
+nav li a:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
 section {
   margin: 20px 0;
   padding: 10px 0;
@@ -44,6 +62,7 @@ section {
 
 i {
   font-size: 30px;
+  color: var(--text-color);
   margin: 10px 10px 10px 0;
 }
 
@@ -56,6 +75,16 @@ footer {
 
 footer h4 {
   padding: 15px;
+}
+
+footer h5 {
+  color: var(--secondary-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+  align-items: center;
 }
 
 #bio,
