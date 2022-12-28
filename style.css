@@ -176,6 +176,16 @@ a {
   color: var(--secondary-color);
 }
 
+.source {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.source a:hover {
+  color: var(--secondary-color);
+}
+
 @media (max-width: 800px) {
   .wrapper {
     padding: 20px 30px;
