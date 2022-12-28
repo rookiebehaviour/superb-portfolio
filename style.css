@@ -60,7 +60,7 @@ nav li a:active {
 
 section {
   max-width: 100%;
-  margin: 0 auto;
+  margin: 40px auto;
   padding: 10px 0;
 }
 
@@ -160,9 +160,16 @@ a {
   color: var(--secondary-color);
 }
 
+.projects {
+  margin-bottom: 100px;
+}
+
 .top-link {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
   text-align: center;
-  padding: 20px 0 30px 0;
+  padding: 20px 0;
 }
 
 .top-link a:hover {
@@ -213,5 +220,9 @@ a {
 
   .btn {
     width: 100%;
+  }
+
+  .projects {
+    margin-bottom: 0;
   }
 }
