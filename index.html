@@ -22,16 +22,17 @@
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    <nav id="top">
-      <ul>
-        <li class="active"><a href="#top">Home</a></li>
-        <li><a href="#bio">Bio</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
     <div class="container">
       <div class="wrapper">
+        <nav id="top">
+          <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#bio">Bio</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
         <section id="home">
           <h1 class="name">Jacqueline Mason</h1>
           <h2 class="title">• Front-End Developer •</h2>
@@ -39,7 +40,7 @@
             <img
               src="./src/Profile-pic.jpg"
               alt="Picture of Jacqueline"
-              class="img-fluid"
+              class="img-fluid profile-pic"
             />
           </div>
         </section>
@@ -60,8 +61,8 @@
         </section>
         <section id="projects">
           <h2 class="section-title">Projects</h2>
-          <div class="row">
-            <div class="col-6 mb-5">
+          <div class="row mb-3">
+            <div class="col-sm-6 ps-2 pe-2 pb-2">
               <img
                 src="/src/music-website.png"
                 alt="Music website about Beyonce"
@@ -69,13 +70,13 @@
                 class="img-fluid shadow"
               />
             </div>
-            <div class="col-6 mb-5 pt-2">
+            <div class="col-sm-6 p-2">
               <h3>Music Website</h3>
               <p>Professional website on Beyonce and her music.</p>
-              <div>
+              <div class="text-center">
                 <a
                   href="https://dainty-pika-d573ca.netlify.app"
-                  class="btn btn-secondary rounded-pill border border-2 pt-2 pb-2 ps-5 pe-5 mt-3 shadow"
+                  class="btn btn-secondary rounded-pill border border-2 pt-2 pb-2 ps-5 pe-5 mt-3 me-2 shadow"
                   target="_blank"
                   >Launch</a
                 >
@@ -88,14 +89,14 @@
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-6 mb-5 pt-2">
+          <div class="row mb-3">
+            <div class="col-sm-6 pt-2">
               <h3>Dictionary App</h3>
               <p>Cool dictionary app made with React and two API's.</p>
-              <div>
+              <div class="text-center">
                 <a
                   href="https://cosmic-hamster-fcce7d.netlify.app"
-                  class="btn btn-secondary rounded-pill border border-2 pt-2 pb-2 ps-5 pe-5 mt-3 shadow"
+                  class="btn btn-secondary rounded-pill border border-2 pt-2 pb-2 ps-5 pe-5 mt-3 me-2 shadow"
                   target="_blank"
                   >Launch</a
                 >
@@ -107,7 +108,7 @@
                 >
               </div>
             </div>
-            <div class="col-6 mb-5">
+            <div class="col-sm-6 p-2">
               <img
                 src="/src/React-dictionary-app.png"
                 alt="React dictionary app"
@@ -117,8 +118,8 @@
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-6 mb-5">
+          <div class="row mb-3">
+            <div class="col-sm-6 p-2">
               <img
                 src="/src/react-weather-app.png"
                 alt="React weather app"
@@ -126,13 +127,13 @@
                 class="img-fluid shadow"
               />
             </div>
-            <div class="col-6 mb-5 pt-2">
+            <div class="col-sm-6 p-2">
               <h3>Weather App</h3>
               <p>React Weather app built with open weather API and JS.</p>
-              <div>
+              <div class="text-center">
                 <a
                   href="https://idyllic-stroopwafel-4460b6.netlify.app"
-                  class="btn btn-secondary rounded-pill border border-2 pt-2 pb-2 ps-5 pe-5 mt-3 shadow"
+                  class="btn btn-secondary rounded-pill border border-2 pt-2 pb-2 ps-5 pe-5 mt-3 me-2 shadow"
                   target="_blank"
                   >Launch</a
                 >
@@ -145,14 +146,14 @@
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-6 mb-5 pt-2">
+          <div class="row mb-3">
+            <div class="col-sm-6 p-2">
               <h3>World Clock App</h3>
               <p>Neat world clock that shows time utilizing JS and momentjs.</p>
-              <div>
+              <div class="text-center">
                 <a
                   href="https://candid-rugelach-253e35.netlify.app"
-                  class="btn btn-secondary rounded-pill border border-2 pt-2 pb-2 ps-5 pe-5 mt-3 shadow"
+                  class="btn btn-secondary rounded-pill border border-2 pt-2 pb-2 ps-5 pe-5 mt-3 me-2 shadow"
                   target="_blank"
                   >Launch</a
                 >
@@ -164,7 +165,7 @@
                 >
               </div>
             </div>
-            <div class="col-6 mb-5">
+            <div class="col-sm-6">
               <img
                 src="/src/world-clock.png"
                 alt="World clock app"
@@ -192,28 +193,28 @@
             </ul>
           </div>
           <div>
-            <h5>Contact Me</h5>
-            <p>
-              jmason.tta@gmail.com
-              <br />
-              <a
-                href="https://github.com/rookiebehaviour"
-                title="Github profile"
-                target="_blank"
-              >
-                <i class="fa-brands fa-github"></i>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/jacquelinesd/"
-                title="LinkedIn profile"
-                target="_blank"
-              >
-                <i class="fa-brands fa-linkedin-in"></i>
-              </a>
-            </p>
+            <ul>
+              <li><h5>Contact Me</h5></li>
+              <li>jmason.tta@gmail.com</li>
+              <li>
+                <a
+                  href="https://github.com/rookiebehaviour"
+                  title="Github profile"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-github"></i></a
+                ><a
+                  href="https://www.linkedin.com/in/jacquelinesd/"
+                  title="LinkedIn profile"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="top-link"><a href="#top">TOP</a></li>
+            </ul>
           </div>
         </footer>
-        <a href="#top">TOP</a>
       </div>
     </div>
   </body>
