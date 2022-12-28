@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap");
+
+:root {
+  --h1-font-family: "Tangerine", cursive;
+  --default-font-family: Georgia, "Times New Roman", Times, serif;
+  --primary-color: #212529;
+  --secondary-color: #6d9886;
+  --accent-color: #f2e7d5;
+  --text-color: #f7f7f7;
+}
+
+body {
+  font-family: var(--default-font-family);
+  background: var(--primary-color);
+  color: var(--text-color);
+}
+nav {
+  margin: 10px 0 20px 0;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-flex;
+  padding: 5px;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 30px;
+}
+
+#bio {
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.name {
+  font-family: var(--h1-font-family);
+  font-size: 85px;
+  font-weight: bold;
+  color: var(--secondary-color);
+  margin: 0;
+}
+
+.title {
+  font-style: italic;
+  margin: 0;
+}
+
+.pic {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.pic img {
+  margin: 20px 0 40px 0;
+  box-shadow: 6px 20px 0px var(--secondary-color);
+  border-top-left-radius: 190px;
+  border-bottom-right-radius: 190px;
+}
+
+.section-title {
+  color: var(--secondary-color);
+}
