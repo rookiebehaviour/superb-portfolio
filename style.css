@@ -85,9 +85,13 @@ footer h5 {
   color: var(--secondary-color);
 }
 
-a {
-  text-decoration: none;
+footer a,
+small a {
   color: var(--text-color);
+}
+
+footer a:hover {
+  color: var(--secondary-color);
 }
 
 #home,
@@ -165,6 +169,7 @@ a {
 }
 
 .top-link {
+  color: var(--text-color);
   display: block;
   margin: 0 auto;
   width: 100%;
@@ -172,7 +177,7 @@ a {
   padding: 20px 0;
 }
 
-.top-link a:hover {
+a:hover {
   color: var(--secondary-color);
 }
 
