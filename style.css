@@ -16,8 +16,8 @@ body {
   max-width: 100%;
 }
 
-nav {
-  margin: 10px 0 20px 0;
+p {
+  font-size: 25px;
 }
 
 btn {
@@ -28,34 +28,22 @@ footer ul {
   padding: 0;
 }
 
-nav ul {
-  text-align: right;
-  padding: 10px 10px;
-}
-
 footer li {
   list-style: none;
 }
 
-nav li {
-  display: inline;
-  list-style: none;
+nav ul {
+  padding-top: 10px;
 }
 
 nav li a {
   text-decoration: none;
-  color: var(--text-color);
   padding: 5px;
   transition: all 150ms ease-in-out;
 }
 
 nav li a:hover {
-  color: var(--secondary-color);
   text-decoration: underline;
-}
-
-nav li a:active {
-  color: var(--secondary-color);
 }
 
 section {
@@ -181,6 +169,20 @@ a:hover {
   color: var(--secondary-color);
 }
 
+.about-icons {
+  padding: 20px 0;
+}
+
+.about-icons i {
+  padding: 5px;
+  font-size: 60px;
+}
+
+.certifications {
+  max-width: 100%;
+  padding-top: 30px;
+}
+
 .source {
   display: block;
   margin: 0 auto;
@@ -204,15 +206,11 @@ a:hover {
     text-align: justify;
   }
 
-  nav ul,
+  nav ul li,
   h1,
   #home h2 {
     text-align: center;
     margin: 0;
-  }
-
-  nav li {
-    margin-right: 15px;
   }
 
   footer {
@@ -239,5 +237,9 @@ a:hover {
 
   .projects {
     margin-bottom: 0;
+  }
+
+  .about-icons {
+    text-align: justify;
   }
 }
